@@ -1,5 +1,6 @@
 # KerasGAN
 This module includes a GAN implementation in Keras for the MNIST data set
+See full article @ https://oshearesearch.com/index.php/2016/07/01/mnist-generative-adversarial-model-in-keras/
 
 # GAN Overview
 The GAN includes a generative and discrimintive network defined in Keras' functional API, they can then be chained together to make a composite model for training end-to-end.
