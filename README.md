@@ -1,3 +1,10 @@
+# WARNING!!!!
+
+**This repository is not maintained!**
+I highly recommend you use a better maintained and up to date library such as: https://github.com/eriklindernoren/Keras-GAN
+
+------
+
 # KerasGAN
 This module includes a GAN implementation in Keras for the MNIST data set
 See full article @ https://oshearesearch.com/index.php/2016/07/01/mnist-generative-adversarial-model-in-keras/
