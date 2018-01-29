@@ -100,10 +100,6 @@ discriminator.compile(loss='categorical_crossentropy', optimizer=dopt)
 discriminator.summary()
 
 # Freeze weights in the discriminator for stacked training
-def make_trainable(net, val):
-    net.trainable = val
-    for l in net.layers:
-        l.trainable = val
 make_trainable(discriminator, False)
 
 # Build stacked GAN model
