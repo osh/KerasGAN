@@ -45,7 +45,7 @@ X_test = X_test.astype('float32')
 X_train /= 255
 X_test /= 255
 
-print np.min(X_train), np.max(X_train)
+print(np.min(X_train), np.max(X_train))
 
 print('X_train shape:', X_train.shape)
 print(X_train.shape[0], 'train samples')
@@ -161,7 +161,7 @@ diff = y_idx-y_hat_idx
 n_tot = y.shape[0]
 n_rig = (diff==0).sum()
 acc = n_rig*100.0/n_tot
-print "Accuracy: %0.02f pct (%d of %d) right"%(acc, n_rig, n_tot)
+print("Accuracy: %0.02f pct (%d of %d) right"%(acc, n_rig, n_tot))
 
 # set up loss storage vector
 losses = {"d":[], "g":[]}
